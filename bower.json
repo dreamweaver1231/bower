@@ -1,19 +1,23 @@
 {
-  "name": "workspace",
+  "name": "cpc",
   "version": "0.0.0",
-  "authors": [
-    "dreamweaver1231 <dreamweaver1231@gmail.com>"
-  ],
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
   "dependencies": {
-    "angularjs": "~1.3.13",
-    "venturocket-angular-slider": "~0.3.2"
+    "jquery": "~2.1.1",
+    "angular-animate": "~1.3.4",
+    "angular-cookies": "~1.3.4",
+    "angular-touch": "~1.3.4",
+    "angular-sanitize": "~1.3.4",
+    "angular-resource": "~1.3.4",
+    "angular-ui-router": "~0.2.13",
+    "bootstrap-sass-official": "~3.3.1",
+    "angular-bootstrap": "0.12.x",
+    "angular": "~1.3.4"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.3.4"
+  },
+  "resolutions": {
+    "jquery": "~2.1.1",
+    "angular": "~1.3.4"
   }
 }
